@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "/blog/",
+      "statusCode": 301
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/blog/404.html",
+    "exclude": ["/blog/images/*", "/blog/css/*", "/blog/js/*", "/blog/*.xml", "/blog/*.json"]
+  }
+}

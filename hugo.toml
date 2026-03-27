@@ -1,0 +1,36 @@
+baseURL = "https://www.lefdal.cc/"
+languageCode = "en-us"
+title = "Roteskuffen"
+theme = "PaperMod"
+paginate = 10
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Roteskuffen min"
+  author = "Alf Kåre Lefdal"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Roteskuffen"
+  Content = "Roteskuffen min"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/blog/tags/"
+    weight = 2

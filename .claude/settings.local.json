@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/aklefdal/Downloads/hugo-export/**)",
+      "Read(//c/Users/aklefdal/Downloads/hugo-export/posts//**)",
+      "Read(//c/Users/aklefdal/Downloads/hugo-export/wp-content//**)",
+      "Bash(node:*)",
+      "Bash(grep -c \"Ã\" /c/s/aklefdal/lefdal-cc/content/posts/*.md)",
+      "Bash(hugo:*)"
+    ]
+  }
+}
